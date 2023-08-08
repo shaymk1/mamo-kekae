@@ -42,3 +42,29 @@ li {
 }
 
 /* section */
+
+
+/* header */
+#desktop-nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height: 17vh;
+}
+
+.logo{
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.menu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:2rem;
+}
+
+.menu .menu-link{
+    font-size:1.5rem;
+}
+
