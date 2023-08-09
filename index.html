@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
-    <!-- header section -->
-    <header>
-<!-- desk-top menu -->
-<nav id="desktop-nav">
-<div class="logo">MKekae</div>
-<ul class="menu">
-    <li class="menu-items">
-        <a href="#about" class="menu-link">About</a>
-    </li>
-    <li class="menu-items">
-        <a href="#experience" class="menu-link">Experience</a>
-    </li>
-    <li class="menu-items">
-        <a href="#projects" class="menu-link">Projects</a>
-    </li>
-    <li class="menu-items">
-        <a href="#Contact" class="menu-link">contact</a>
-    </li>
-</ul>
-</nav>
-<!-- hamburger menu -->
-<nav id="hamburger-nav">
-
-</nav>
-    </header>
-    <!-- script section -->
-    <script src="script.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="media-queries.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <title>My Portfolio</title>
+	</head>
+	<body>
+		<!-- header section -->
+		<header>
+			<!-- desk-top menu -->
+			<nav>
+				<div class="container nav__container">
+					<div class="logo">
+						<a href="index.html" class="menu-link">
+							<img src="assets/images/black.png" alt="logo image" />
+						</a>
+					</div>
+					<ul class="nav__menu">
+                        <li >
+							<a href="#home" class="menu-link">Home</a>
+						</li>
+						<li >
+							<a href="#about" class="menu-link">About</a>
+						</li>
+						<li >
+							<a href="#experience" class="menu-link">Experience</a>
+						</li>
+						<li >
+							<a href="#projects" class="menu-link">Projects</a>
+						</li>
+						<li>
+							<a href="#Contact" class="menu-link">contact</a>
+						</li>
+					</ul>
+					<!-- hamburger buttons -->
+                    <div class="nav__button">
+                        <button class="nav__toggle-open">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </button>
+                        
+                        <button class="nav__toggle-close">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </button>
+                    </div>
+				</div>
+			</nav>
+		</header>
+		<!-- script section -->
+		<script src="script.js"></script>
+	</body>
 </html>
