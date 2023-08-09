@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@400;500;700&display=swap");
 
-/* general styling */
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Patrick+Hand&family=Poppins:wght@100;300;400;500;700&display=swap');
+
+/*************general-styles***********/
 
 *,
 *::before,
@@ -10,6 +11,38 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style: none;
+	border: 0;
+	outline: 0;
+}
+
+:root {
+	--container-width-lg: 80%;
+	--container-width-sm: 95%;
+
+	/* border-radiuses */
+	--radius-1: 2rem;
+	--radius-2: 1rem;
+	--radius-3: 0.8rem;
+	--radius-4: 0.5rem;
+	--radius-5: 0.3rem;
+	--radius-6: 50%;
+
+	/* transition */
+	--transition: all 300ms ease;
+
+	/*color */
+	--primary-hue: 358;
+	--color-primary: hsl(var(--primary-hue), 87%, 44%);
+	--color-nav-bg: hsla(var(--primary-hue), 0%, 100%, 0.4);
+	--color-gray-100: #fff;
+	--color-gray-200: hsl(var(--primary-hue), 0%, 95%);
+	--color-gray-300: hsl(var(--primary-hue), 0%, 85%);
+	--color-gray-400: hsl(var(--primary-hue), 0%, 70%);
+	--color-gray-500: hsl(var(--primary-hue), 0%, 55%);
+	--color-gray-600: hsl(var(--primary-hue), 0%, 40%);
+	--color-gray-700: hsl(var(--primary-hue), 0%, 25%);
+	--color-gray-800: hsl(var(--primary-hue), 0%, 15%);
+	--color-gray-900: hsl(var(--primary-hue), 0%, 5%);
 }
 
 html {
@@ -18,10 +51,90 @@ html {
 
 body {
 	font-family: "Poppins", sans-serif;
+	background-color: var(--color-gray-100);
+	color: var(--color-gray-800);
+	line-height: 1.7;
+	font-weight: 300;
+}
+
+p,
+a,
+figcaption {
+	font-size: 0.85rem;
+}
+
+.container {
+	width: var(--container-width-lg);
+	margin-inline:auto;
+}
+
+img{
+	display:block;
+	width:100%;
+	object-fit:cover;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Outfit', sans-serif;
+line-height:1;
+}
+
+h1{
+	font-size:3rem;
+	font-weight:extra-bold;
+}
+
+h2{
+	font-size:2rem;
+}
+
+.btn{
+	display:inline-block;
+	background-color:var(--color-gray-200);
+	color:var(--color-gray-900);
+	font-weigth:500;
+	width:fit-content;
+	padding:1rem 2.5rem;
+	border-radius:var(--radius-3);
+	cursor:pointer;
+	transition:var(--transition);
+}
+
+.btn.sm{
+	padding:0.4rem 1rem;
+	font-weight:400;
+	border-radius:var(--radius-4);
+}
+
+.btn.primary{
+	background:var(--color-primary);
+	color:white;
+}
+
+.btn:hover{
+	background:var(--color-gray-900);
+	color:var(--color-gray-100);
+}
+
+/* sections */
+section{
+	padding:9rem 0;
+}
+
+section > h1, section > p{
+	width:50%;
+	text-align:center;
+	margin-inline:auto;
+}
+
+section > h1{
+	margin-bottom:0.5rem;
+}
+
+section:nth-child(odd){
+	background:var(--color-gray-200);
 }
 
 
-/* section */
-
-/* header desk-top nav*/
+/*************header-styles***********/
 
