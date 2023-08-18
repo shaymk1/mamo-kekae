@@ -40,8 +40,8 @@
 
 	/*color */
 	--primary-hue: 358;
-	--color-primary: hsl(var(--primary-hue), 87%, 44%);
-	--color-primary-1: #0f4c5c;
+	/* --color-primary: hsl(var(--primary-hue), 87%, 44%); */
+	--color-primary: #0f4c5c;
 	--color-secondary: #e36414;
 	--color-tertiary: #9a031e;
 	--color-alternative: #5f0f40;
@@ -268,14 +268,14 @@ nav {
 
 
 .hero__content span {
-	color: var(--color-primary-1);
+	color: var(--color-primary);
 	font-size:1rem;
 	font-weight:500;
 }
 .hero__content h1{
 	font-size:2.5rem;
 	line-height:1.3;
-	text-align:justify;
+	
 }
 
 .hero__content p{
@@ -283,9 +283,6 @@ nav {
 	
 }
 
-.hero__content .paragraph{
-	text-align:justify;
-}
 
 .hero__cta{
 	display:flex;
@@ -338,7 +335,7 @@ nav {
 	border:solid 1rem var(--color-gray-200);
 	height:fit-content;
 	max-height:35rem;
-	border-radius:var(--radius-1);
+	/* border-radius:var(--radius-1); */
 	overflow:hidden;
 }
 
@@ -356,3 +353,76 @@ nav {
 .about__details .btn ion-icon{
 	font-size:1.2rem;
 }
+
+
+/*-----------------------------------*\
+  #projects section
+\*-----------------------------------*/
+
+.projects__categories{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:1rem;
+	margin:4rem 0 2.5rem;
+	font-weight:500;
+	flex-wrap:wrap;
+}
+
+.projects__categories li{
+	background:var(--color-gray-100);
+	padding:0.6rem 1.5rem;
+	border-radius:var(--radius-4);
+	font-size:0.8rem;
+	cursor:pointer;
+	transition:var(--transition);
+}
+
+.projects__categories li:hover,
+.projects__categories li.active{
+background:var(--color-primary);
+color:var(--color-gray-100);
+}
+
+.projects__container{
+	display:grid;
+	grid-template-columns:repeat(auto-fill, minmax(14rem,1fr));
+	gap:3.5rem;
+}
+
+.project{
+	background:var(--color-gray-100);
+	padding:1.4rem;
+	border-radius:var(--radius-2);
+	transition:var(--transition);
+	
+}
+
+.project:hover{
+	box-shadow:var(--shadow-2);
+}
+
+.project__image{
+	height:auto;
+	max-height:10rem;
+	margin-bottom:1.4rem;
+	border-radius:var(--radius-4);
+	overflow:hidden;
+}
+
+.project h2{
+	font-size:1.5rem;
+}
+
+.project p{
+	margin:0.5rem 0 1.5rem;
+}
+
+.project__cta{
+	display:flex;
+	margin-bottom:1rem;
+	gap:1rem;
+}
+
+
+
