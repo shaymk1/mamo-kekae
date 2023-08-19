@@ -386,7 +386,7 @@ color:var(--color-gray-100);
 
 .projects__container{
 	display:grid;
-	grid-template-columns:repeat(auto-fill, minmax(14rem,1fr));
+	grid-template-columns:repeat(auto-fill, minmax(18rem,1fr));
 	gap:3.5rem;
 }
 

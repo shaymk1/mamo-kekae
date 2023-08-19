@@ -145,14 +145,14 @@
 				<h1>Projects</h1>
 				<p>Here are some of my projects</p>
 				<ul class="projects__categories">
-					<li class="active">All</li>
-					<li>Back End</li>
-					<li>UX/Ui</li>
-					<li>Cybersecurity</li>
+					<li class="active" data-filter="*">All</li>
+					<li data-filter=".cybersecurity">Cybersecurity</li>
+					<li data-filter=".backend">Back End</li>
+					<!-- <li data-filter=".ux/ui">UX/Ui</li> -->
 				</ul>
 				<div class="container projects__container">
 					<!-------- Cybersecurity----- -->
-					<article class="project cybersecurity active">
+					<article class="project mix cybersecurity" data-order="1">
 						<div class="project__image">
 							<img src="assets/images/project-11.jpg" alt="" />
 						</div>
@@ -161,14 +161,14 @@
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
 							quibusdam accusantium.ipsa labore harum atque fuga doloremque
 							ratione blanditiis dolor repellat eaque at sequi, enim ipsam aut
-							deserunt suscipit repudiandae. 
+							deserunt suscipit repudiandae.
 						</p>
 						<div class="project__cta">
 							<a href="#" class="btn sm primary" target="_blank">Demo</a>
 							<a href="#" class="btn sm secondary" target="_blank">Github</a>
 						</div>
 					</article>
-					<article class="project cybersecurity">
+					<article class="project mix cybersecurity" data-order="2">
 						<div class="project__image">
 							<img src="assets/images/project-12.jpg" alt="" />
 						</div>
@@ -184,7 +184,7 @@
 							<a href="#" class="btn sm secondary" target="_blank">Github</a>
 						</div>
 					</article>
-					<article class="project cybersecurity">
+					<article class="project mix cybersecurity" data-order="3">
 						<div class="project__image">
 							<img src="assets/images/project-13.jpg" alt="" />
 						</div>
@@ -202,7 +202,7 @@
 					</article>
 
 					<!-------- Back-end------ -->
-					<article class="project back-end">
+					<article class="project mix backend" data-order="4">
 						<div class="project__image">
 							<img src="assets/images/project-7.jpg" alt="" />
 						</div>
@@ -218,7 +218,7 @@
 							<a href="#" class="btn sm secondary" target="_blank">Github</a>
 						</div>
 					</article>
-					<article class="project back-end">
+					<article class="project mix backend" data-order="5">
 						<div class="project__image">
 							<img src="assets/images/project-8.jpg" alt="" />
 						</div>
@@ -234,7 +234,7 @@
 							<a href="#" class="btn sm secondary" target="_blank">Github</a>
 						</div>
 					</article>
-					<article class="project back-end">
+					<article class="project mix backend" data-order="6">
 						<div class="project__image">
 							<img src="assets/images/project-9.jpg" alt="" />
 						</div>
@@ -252,7 +252,7 @@
 					</article>
 
 					<!-------- UX/UI----- -->
-					<article class="project ux/ui">
+					<!-- <article class="project mix ux/ui" data-order="7">
 						<div class="project__image">
 							<img src="assets/images/project-4.jpg" alt="" />
 						</div>
@@ -267,9 +267,9 @@
 							<a href="#" class="btn sm primary" target="_blank">Demo</a>
 							<a href="#" class="btn sm secondary" target="_blank">Github</a>
 						</div>
-					</article>
+					</article> -->
 
-					<article class="project ux/ui">
+					<!-- <article class="project mix ux/ui" data-order="8">
 						<div class="project__image">
 							<img src="assets/images/project-6.jpg" alt="" />
 						</div>
@@ -284,9 +284,9 @@
 							<a href="#" class="btn sm primary" target="_blank">Demo</a>
 							<a href="#" class="btn sm secondary" target="_blank">Github</a>
 						</div>
-					</article>
+					</article> -->
 
-					<article class="project ux/ui">
+					<!-- <article class="project mix ux/ui" data-order="9">
 						<div class="project__image">
 							<img src="assets/images/project-5.jpg" alt="" />
 						</div>
@@ -301,9 +301,7 @@
 							<a href="#" class="btn sm primary" target="_blank">Demo</a>
 							<a href="#" class="btn sm secondary" target="_blank">Github</a>
 						</div>
-					</article>
-
-					
+					</article> -->
 				</div>
 			</section>
 		</main>
@@ -316,7 +314,10 @@
             -->
 
 		<script src="script.js"></script>
-
+		<!-- 
+           mixiup link
+		  -->
+		<script src="./mix/dist/mixitup.min.js"></script>
 		<!-- 
            ionicon link
 		  -->
