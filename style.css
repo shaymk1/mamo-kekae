@@ -263,7 +263,7 @@ nav {
 	margin-inline: auto;
 	border-radius: var(--radius-6);
 	/* border-radius: 7rem 7rem var(--radius-2) var(--radius-2); */
-	box-shadow: var(--shadow-3);
+	box-shadow: var(--shadow-2);
 }
 
 .hero__image img {
@@ -570,7 +570,7 @@ section.contact {
 		display: inline-block;
 		font-size: 1.8rem;
 		color: var(--color-gray-900);
-		background:transparent;
+		background: transparent;
 	}
 
 	.nav__toggle-close {
