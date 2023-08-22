@@ -258,7 +258,7 @@ nav {
 .hero__image {
 	width: 14rem;
 	overflow: hidden;
-	aspect-ratio: 3/4;
+	aspect-ratio: 4/4;
 	max-height: 14rem;
 	margin-inline: auto;
 	border-radius: var(--radius-6);
