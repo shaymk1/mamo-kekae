@@ -72,7 +72,7 @@
 	--color-gray-900: hsl(var(--primary-hue), 0%, 100%);
 	--color-nav-bg: hsla(var(--primary-hue), 0%, 0%, 0.4);
 }
-.dark-mode .hero__content .intro > span,
+/* .dark-mode .hero__content .intro  .span, */
 .dark-mode .contact > h1,
 .dark-mode .contact > p,
 .dark-mode .contact .small {
@@ -281,8 +281,9 @@ nav {
 	margin-bottom: 0.7rem;
 }
 
-.hero__content span {
-	color: var(--color-primary);
+.hero__content .span {
+	/* color: var(--color-tertiary); */
+	color: var(--color-gray-600);
 	font-size: 1rem;
 	font-weight: 700;
 }
@@ -344,10 +345,10 @@ nav {
 }
 
 .about__image {
-	/* border:solid .5rem var(--color-gray-200); */
+	border: solid 1rem var(--color-gray-200);
 	height: fit-content;
 	max-height: 50rem;
-	/* border-radius:var(--radius-1); */
+	border-radius: var(--radius-1);
 	overflow: hidden;
 	box-shadow: var(--shadow-3);
 }
