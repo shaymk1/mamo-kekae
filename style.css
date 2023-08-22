@@ -350,7 +350,7 @@ nav {
 	max-height: 50rem;
 	border-radius: var(--radius-1);
 	overflow: hidden;
-	box-shadow: var(--shadow-3);
+	box-shadow: var(--shadow-2);
 }
 
 .about__details p {
