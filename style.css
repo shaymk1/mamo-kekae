@@ -20,7 +20,7 @@
 \*-----------------------------------*/
 :root {
 	--container-width-lg: 80%;
-	--container-width-sm: 95%;
+	--container-width-sm: 97%;
 
 	/* border-radiuses */
 	--radius-1: 2rem;
@@ -639,12 +639,12 @@ section.contact {
 	/* hero */
 	.hero {
 		height: 115vh;
-		margin-right:2rem;
+		
 	}
 
 	.hero__content {
 		width: var(--container-width-sm);
-		padding-bottom: 3rem;
+		margin:0 auto;
 	}
 
 	.hero__socials {
