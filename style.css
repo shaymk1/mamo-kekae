@@ -506,28 +506,12 @@ section.contact {
 	font-weight: 500;
 }
 
-/* .contact__form{
-	display:flex;
-	flex-direction:column;
-	gap:1.4rem;
-} */
 
-/* .contact__form label{
-	color:var(--color-gray-100);
-} */
 
-/* .contact__form label>span{
-	color:red;
-} */
-/* .contact__form input,
-.contact__form textarea{
-	background:transparent;
-	border:solid 1px var(--color-gray-100);
-	border-radius:var(--radius-3);
-	padding:1rem;
-	color:var(--color-gray-100);
 
-} */
+
+
+
 
 /*-----------------------------------*\
   #media-quiries section
@@ -583,8 +567,8 @@ section.contact {
 		gap: 2.5rem;
 	}
 }
-
-@media (max-width: 768px) {
+/* 768 */
+@media (max-width: 600px) {
 	/* general */
 	h1 {
 		font-size: 1.8rem;
