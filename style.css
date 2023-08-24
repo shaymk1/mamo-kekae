@@ -561,16 +561,12 @@ section.contact {
 		gap: 2.5rem;
 	}
 	/* hero */
-	/* .hero__container {
-		margin: 0 auto;
-	} */
+
 	.hero__content {
 		 margin-left:3rem; 
-		/* margin-right: 8rem; */
+		
 	}
-	/* .hero__socials {
-		padding-left: 2rem;
-	} */
+	
 }
 /* 768 */
 @media (max-width: 600px) {
