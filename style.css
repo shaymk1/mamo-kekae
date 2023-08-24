@@ -564,13 +564,13 @@ section.contact {
 	.hero__container {
 		margin: 0 auto;
 	}
-	.hero__content{
+	.hero__content {
 		/* margin-right:3rem; */
-		margin: 0 auto;
+		margin-right: 8rem;
 	}
 	.hero__socials {
-		margin-left: 2rem;
-	} 
+		padding-left: 2rem;
+	}
 }
 /* 768 */
 @media (max-width: 600px) {
