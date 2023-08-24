@@ -564,6 +564,9 @@ section.contact {
 	.hero__container {
 		text-align: center;
 	}
+	.hero__content{
+		margin-right:3rem;
+	}
 	.hero__socials {
 		margin-left: 2rem;
 	}
