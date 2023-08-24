@@ -637,8 +637,9 @@ section.contact {
 	}
 
 	/* hero */
-	hero {
+	.hero {
 		height: 115vh;
+		margin-right:2rem;
 	}
 
 	.hero__content {
