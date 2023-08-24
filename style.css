@@ -562,14 +562,15 @@ section.contact {
 	}
 	/* hero */
 	.hero__container {
-		text-align: center;
+		margin: 0 auto;
 	}
 	.hero__content{
-		margin-right:3rem;
+		/* margin-right:3rem; */
+		margin: 0 auto;
 	}
-	.hero__socials {
+	/* .hero__socials {
 		margin-left: 2rem;
-	}
+	} */
 }
 /* 768 */
 @media (max-width: 600px) {
