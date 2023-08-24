@@ -306,7 +306,7 @@ nav {
 .hero__socials {
 	position: absolute;
 	bottom: 0;
-	right: 0;
+	left: 0;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -566,11 +566,11 @@ section.contact {
 	}
 	.hero__content {
 		/* margin-right:3rem; */
-		margin-right: 8rem;
+		/* margin-right: 8rem; */
 	}
-	.hero__socials {
+	/* .hero__socials {
 		padding-left: 2rem;
-	}
+	} */
 }
 /* 768 */
 @media (max-width: 600px) {
