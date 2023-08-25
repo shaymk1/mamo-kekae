@@ -340,14 +340,14 @@ nav {
 
 .about__container {
 	display: grid;
-	grid-template-columns: 2fr 3fr;
+	grid-template-columns: 3fr 3fr;
 	gap: 7rem;
 }
 
 .about__image {
 	border: solid 1rem var(--color-gray-200);
 	height: fit-content;
-	max-height: 50rem;
+	max-height: 50rem; 
 	border-radius: var(--radius-1);
 	overflow: hidden;
 	box-shadow: var(--shadow-2);
@@ -566,6 +566,15 @@ section.contact {
 		 margin:0 auto; 
 		
 	}
+	.about__image{
+		 
+	}
+
+	.about__container {
+		grid-template-columns: 1fr;
+	}
+
+	
 	
 }
 /* 768 */
