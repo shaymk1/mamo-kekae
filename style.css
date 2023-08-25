@@ -562,8 +562,8 @@ section.contact {
 	}
 	/* hero */
 
-	.hero__content {
-		 margin-left:3rem; 
+	.hero__container {
+		 margin:0 auto; 
 		
 	}
 	
