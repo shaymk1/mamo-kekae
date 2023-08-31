@@ -347,7 +347,7 @@ nav {
 .about__image {
 	border: solid 1rem var(--color-gray-200);
 	height: fit-content;
-	max-height: 50rem; 
+	max-height: 50rem;
 	border-radius: var(--radius-1);
 	overflow: hidden;
 	box-shadow: var(--shadow-2);
@@ -563,19 +563,14 @@ section.contact {
 	/* hero */
 
 	.hero__container {
-		 margin:0 auto; 
-		
+		margin: 0 auto;
 	}
-	.about__image{
-		 
+	.about__image {
 	}
 
 	.about__container {
 		grid-template-columns: 1fr;
 	}
-
-	
-	
 }
 /* 768 */
 @media (max-width: 600px) {
@@ -648,12 +643,11 @@ section.contact {
 	/* hero */
 	.hero {
 		height: 115vh;
-		
 	}
 
 	.hero__content {
 		width: var(--container-width-sm);
-		margin:0 auto;
+		margin: 0 auto;
 	}
 
 	.hero__socials {
